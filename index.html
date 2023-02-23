@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home-work_Pec</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <div class="task__one">
+        <label for="username-input">Enter your name (name can't contain digits):</label>
+	    <input class="input__one" type="text" id="username-input" onkeypress="handleInput(event)">
+    </div>
+    
+
+
+    <!-- Button to open the modal -->
+    <button id="openModal">Open Modal</button>
+
+    <!-- Modal window -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <h2 class="title">Hello from Modal Window!</p>
+            <button class="close">Close</span>
+        </div>
+    </div>
+
+
+    <div class="traffic-light">
+		<div class="traffic-light__light traffic-light__red"></div>
+		<div class="traffic-light__light traffic-light__yellow"></div>
+		<div class="traffic-light__light traffic-light__green"></div>
+        <button id="change-color-btn">Change color</button>
+	</div>
+	
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
